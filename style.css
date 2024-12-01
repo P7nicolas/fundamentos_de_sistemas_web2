@@ -1,0 +1,269 @@
+body.verde {
+    background-color: #f5f5f5;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+a.nav-link, a.dropdown-toggle, a.dropdown-item {
+    color:#0b4d40;
+}
+
+a.nav-link:hover, a.nav-link:active, 
+a.dropdown:hover, a.dropdown:active {
+    color:#E49428;
+}
+
+.section-title {
+  margin: 40px 0 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.title-detail-green::after {
+  content: '';
+  display: block;
+  width: 150px;
+  height: 4px;
+  background-color: #58C2B5; 
+  margin-top: 10px;
+  margin-left: 0;
+}
+/*------------------------------------------------------------------------------------------------------*/
+
+footer {
+    background-color: #f8f9fa; 
+    color: #333;
+  }
+  
+  footer h5 {
+    font-weight: bold;
+  }
+  
+  footer a {
+    color: #0b4d40; 
+  }
+  
+  footer a:hover {
+    color: #333; 
+  }
+
+.title-detail-green::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 4px;
+    background-color: #0b4d40; 
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+.anima{
+  transition: transform 1s ease;
+  position: relative;
+  
+}
+
+.carde{
+  width: 250px;
+  height: 320px;
+  background-color: #fefefe;
+  border-radius: 5px;
+
+  
+
+  h5, p, button{
+      width: fit-content;
+      margin: 10px auto;
+      margin-top: 0px;
+      margin-left: 15px;
+      
+  }
+
+  button{
+      border: none;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-size: 16px;
+      background-color: #0b4d40;
+      color: #ffffff;
+  }
+
+  button:active{
+      border-width: 2px 0px 0px 2px;
+  }
+
+  button:hover{
+      background-color: #ffffff;
+      color: #0b4d40;
+  }
+
+
+}
+
+.photo{
+  width: 200px;
+  height: 180px;
+  margin: 10px auto;
+  text-align: center;
+  overflow: hidden;
+  img{
+      border-radius: 5px;
+      width: 200px;
+  }
+
+}
+
+.carrosel{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+}
+
+svg{
+  stroke: #a1a0a0;
+  width: 60px;
+  height: 60px;
+}
+
+svg:active{
+  opacity: 0.8;
+}
+
+.roda{
+  transform: rotate(180deg);
+}
+
+
+.setaR{
+  float: right;
+}
+
+.setaL{
+  float: left;
+}
+
+.cardContainer{
+  display: block;
+  width: 85%;
+  overflow: hidden;
+}
+
+.insideContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 150%;
+  position: relative;
+  left: -25%;
+  height: 95%;
+  
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.default-btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.default-btn-outline {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  border: 1px solid;
+}
+
+.green-btn {
+  background-color: #0b4d40;
+  color: white;
+}
+
+.green-btn:hover {
+  background-color: white;
+  color: #0b4d40;
+}
+
+.green-btn-outline {
+  background-color: white;
+  color: #0b4d40;
+  border: 2px solid #0b4d40;
+}
+
+.green-btn-outline:hover {
+  background-color:#0b4d40;
+  color: white;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+
+.login-container h2 {
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+.form-container {
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+
+.form-container h2 {
+  color: #000; /* Título em preto */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+.contato-container {
+  max-width: 1100px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+
+.contato-container h2 {
+  color: #000; /* Título em preto */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
